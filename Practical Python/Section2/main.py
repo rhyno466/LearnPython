@@ -24,5 +24,16 @@ def say_hello(user_name, user_age):
     print("Hello " + user_name + " you're " + str(user_age))
 
 
-say_hello("Ryne", 33)
-say_hello("John", 23)
+def double_number(number):
+    return number * 2
+
+
+def print_double_number(number):
+    result = double_number(number)
+    print("Double of " + str(number) + " is equal to " + str(result))
+
+
+# say_hello("Ryne", 33)
+# say_hello("John", 23)
+
+print_double_number(3)

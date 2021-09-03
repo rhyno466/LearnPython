@@ -20,11 +20,9 @@ Created on Thu Sep  2 20:20:49 2021
 #%% Section 2.5
 
 
-def say_hello():
-    print("Hello World!")
-    print("Test")
+def say_hello(user_name, user_age):
+    print("Hello " + user_name + " you're " + str(user_age))
 
 
-say_hello()
-say_hello()
-say_hello()
+say_hello("Ryne", 33)
+say_hello("John", 23)

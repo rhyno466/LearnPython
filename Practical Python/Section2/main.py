@@ -29,11 +29,14 @@ def double_number(number):
 
 
 def print_double_number(number):
-    result = double_number(number)
+    result = double_number(number) #local car
     print("Double of " + str(number) + " is equal to " + str(result))
 
+
+a = 2 #global var
 
 # say_hello("Ryne", 33)
 # say_hello("John", 23)
 
 print_double_number(3)
+print(result)

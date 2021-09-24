@@ -27,3 +27,10 @@ i = 0
 while i < 10:
     print("Hello " + str(i))
     i += 1
+
+#%%
+num_list = [3, 4, 5, 8, 12, -3, -7]
+for number in num_list:
+    print(number)
+    if number < 0:
+        print('Number is negative')

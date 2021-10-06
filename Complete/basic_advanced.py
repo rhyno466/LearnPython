@@ -57,3 +57,16 @@ print(type(x))
 print(z)
 print(type(z))
 
+#%% strings
+
+g = "i'm a \nprogrammer"
+print(g)
+
+f_str = "a"
+s_str = "b"
+
+print(type(f_str))
+print(f_str + "\n" + s_str)
+
+#%% str manipulation
+

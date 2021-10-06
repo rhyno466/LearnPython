@@ -76,3 +76,9 @@ d = a * 3
 print('f' in d)
 print(len(d))
 print(str(1.0))
+
+#%% str index
+
+a = 'ryne is really cool'
+print(a[1])
+print(a[-2])

@@ -69,4 +69,10 @@ print(type(f_str))
 print(f_str + "\n" + s_str)
 
 #%% str manipulation
-
+a = "first"
+b = "second"
+c = a + b
+d = a * 3
+print('f' in d)
+print(len(d))
+print(str(1.0))

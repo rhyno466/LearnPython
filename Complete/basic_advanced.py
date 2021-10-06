@@ -73,12 +73,22 @@ a = "first"
 b = "second"
 c = a + b
 d = a * 3
-print('f' in d)
+print("f" in d)
 print(len(d))
 print(str(1.0))
 
 #%% str index
 
-a = 'ryne is really cool'
+a = "ryne is really cool"
 print(a[1])
 print(a[-2])
+
+#%% str slicing
+
+a = "ryne is really cool and is living the fucking dream"
+print(len(a))
+print(a[0:8])
+print(a[0:10:2])
+print(a.count("r"))
+print(a.find("r"))
+print(a[-5:-1])

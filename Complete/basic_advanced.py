@@ -92,3 +92,16 @@ print(a[0:10:2])
 print(a.count("r"))
 print(a.find("r"))
 print(a[-5:-1])
+
+#%% booleans
+
+a = "ryne is really cool and is living the fucking dream"
+b = "f" in a
+g = True
+print(b)
+print(type(b))
+print(type(g), g)
+x = 3
+y = 4
+z = x == y
+print(z, type(z))

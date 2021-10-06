@@ -49,3 +49,11 @@ x = 4 + 5
 print(x)
 result_two = 4 + 4
 
+#%% int and float
+x = 1.0
+y = 1
+z = x * y
+print(type(x))
+print(z)
+print(type(z))
+

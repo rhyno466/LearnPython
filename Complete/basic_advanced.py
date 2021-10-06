@@ -105,3 +105,14 @@ x = 3
 y = 4
 z = x == y
 print(z, type(z))
+
+#%%
+
+x = 5.0
+print(x)
+print(f"The current value of X is {x}")
+nme = "ryne"
+a = "{nme} is really cool and is living the fucking dream"
+b = a.format(nme="kari")
+print(a)
+print(b)

@@ -106,7 +106,7 @@ y = 4
 z = x == y
 print(z, type(z))
 
-#%%
+#%% printing
 
 x = 5.0
 print(x)

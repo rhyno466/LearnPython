@@ -5,7 +5,7 @@ Created on Thu Nov 11 20:46:53 2021
 @author: rhyno
 """
 
-#%% arithmetic
+# %% arithmetic
 
 first_num = 7
 second_num = 3
@@ -37,4 +37,8 @@ print(
 )
 
 
-#%% assignment ops
+# %% assignment ops
+x = 3
+x = x +4
+x += 4
+

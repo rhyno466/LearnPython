@@ -42,3 +42,12 @@ x = 3
 x = x +4
 x += 4
 
+
+# %% comparison ops
+
+first_num = 4
+second_num = 5.2
+
+print(first_num + 1.2 == second_num)
+
+

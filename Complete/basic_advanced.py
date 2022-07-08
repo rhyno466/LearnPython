@@ -116,3 +116,6 @@ a = "{nme} is really cool and is living the fucking dream"
 b = a.format(nme="kari")
 print(a)
 print(b)
+
+
+#%% operators

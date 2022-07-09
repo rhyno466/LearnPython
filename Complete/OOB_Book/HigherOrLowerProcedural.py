@@ -66,22 +66,23 @@ while True:
         
         if answer == 'h':
             if nextCardVal > curCardVal:
-                print('Correct bitch, it was higher!!/n')
+                print('Correct bitch, it was higher!!\n')
                 score += 20
             else:
-                print('Sorry motherfucker, it was lower!!/n')
+                print('Sorry motherfucker, it was lower!!\n')
                 score -= 15
                 
         elif answer == 'l':
             if nextCardVal < curCardVal:
                 score += 20
-                print('Correct bitch, it was lower!!/n')
+                print('Correct bitch, it was lower!!\n')
             else:
-                print('Sorry motherfucker, it was higher!!/n')
+                print('Sorry motherfucker, it was higher!!\n')
                 score -= 15
         print(f'Your score is {score}\n')
         curCardRank = nextCardRank
         curCardVal = nextCardVal
+        curCardStr = nextCardStr
     goAgain = input('To play again, press ENTER, or "q" to quit: ')
     if goAgain =='q':
         break

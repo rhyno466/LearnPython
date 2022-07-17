@@ -63,7 +63,7 @@ while True:
         nextCardSuit = nextCardDict['suit']
         nextCardStr = f'{nextCardRank} of {nextCardSuit}'
         print(f'Next card is {nextCardStr}')
-        
+
         if answer == 'h':
             if nextCardVal > curCardVal:
                 print('Correct bitch, it was higher!!\n')
@@ -71,7 +71,7 @@ while True:
             else:
                 print('Sorry motherfucker, it was lower!!\n')
                 score -= 15
-                
+
         elif answer == 'l':
             if nextCardVal < curCardVal:
                 score += 20
@@ -84,17 +84,8 @@ while True:
         curCardVal = nextCardVal
         curCardStr = nextCardStr
     goAgain = input('To play again, press ENTER, or "q" to quit: ')
-    if goAgain =='q':
+    if goAgain == 'q':
         break
-        
-        
-        
-                
-                
-            
-            
-            
-                
-        
-        
+
+
 # %%

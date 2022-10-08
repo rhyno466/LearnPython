@@ -14,7 +14,7 @@ while True:
     print('Press d to make a deposit')
     print('Press w to make a withdrawl')
     print('Press s to show the account')
-    print('Press w to quit')
+    print('Press q to quit')
     print()
     
     act = input('What do you wanna do?').lower()[0]

@@ -9,9 +9,9 @@ language = 'en'
 
 yup = 'Gay double faggot fucker 97 plus three'
 
-first_list = ['douche', 'faggot', 'slut', 'cock bag']
-second_list = ['gazelle', 'dumpster', 'cock bag']
-third_list = ['97', '12', '69. . .  haha', '32', '912']
+first_list = ['douche', 'faggot', 'slut', 'cock bag', 'stripper', 'cum']
+second_list = ['gazelle', 'dumpster', 'cock bag', 'fucker']
+third_list = ['97', '12', '69. . .  haha', '32', '912', '4']
 
 # third = '69haha'
 

@@ -174,3 +174,6 @@ model2.load_weights('models/med_trial_model_weights.h5')
 # %%
 model2.get_weights()
 # %%
+from keras.utils.vis_utils import plot_model
+plot_model(model, to_file='models/model_plot.png', show_shapes=True, show_layer_names=True)
+# %%

@@ -1,2 +1,6 @@
 **.venv**
 **.vscode
+/Hockey/anki/*
+/Hockey/code/*
+/Hockey/solutions-to-exercises/*
+/Hockey/.gitignore

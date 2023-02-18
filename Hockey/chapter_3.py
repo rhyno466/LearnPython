@@ -40,3 +40,24 @@ shots = shots.set_index('shot_id')
 # %%
 shots.head()
 # %%
+shots_ot = shots.loc[shots['period_type'] == 'OVERTIME', \
+    ['name', 'period', 'hand', 'goal']]
+# %%
+shots_ot.head()
+# %%
+shots_ot.sort_values('name', inplace=True)
+# %%
+shots_ot.head()
+# %%
+shots_ot['pos'] =  shots['pos']
+# %%
+shots_ot.head()
+# %%
+# TEST INDEX EQUALS
+#%%
+shots_ot.to_csv(os.path.join(data_dir, 'shots_ot.csv'))
+# %%
+shots_ot.to_csv(os.path.join(data_dir, 'shots_ot_no_index.csv'),\
+    index=False)
+
+# %%
